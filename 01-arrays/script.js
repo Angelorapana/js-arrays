@@ -40,4 +40,13 @@ console.log(lewisIndex);
 
 // 8. Verifica se l'array teachers è vuoto
 // e salva il risultato nella variabile isTeachersEmpty
-const isTeachersEmpty = null;
+const isTeachersEmpty = teachers.length === 0;
+
+if (isTeachersEmpty){
+console.log(isTeachersEmpty + "IL TUO ARRAY NON E' VUOTO");
+}
+else {console.log("IL TUO ARRAY E' VUOTO")};
+
+
+// Per gli array il valore LENGTH non indica la lunghezza della parola ma il contenuto 
+// quindi posso utilizzarlo per verificare se un array contiene oppure no un contenuto
