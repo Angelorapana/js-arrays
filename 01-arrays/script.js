@@ -43,9 +43,9 @@ console.log(lewisIndex);
 const isTeachersEmpty = teachers.length === 0;
 
 if (isTeachersEmpty){
-console.log(isTeachersEmpty + "IL TUO ARRAY NON E' VUOTO");
+console.log(isTeachersEmpty + "IL TUO ARRAY E' VUOTO");
 }
-else {console.log("IL TUO ARRAY E' VUOTO")};
+else {console.log("IL TUO ARRAY  NON E' VUOTO")};
 
 
 // Per gli array il valore LENGTH non indica la lunghezza della parola ma il contenuto 
